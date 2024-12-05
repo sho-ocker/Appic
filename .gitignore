@@ -1,0 +1,69 @@
+# Flutter & Dart specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+pubspec.lock
+
+# Android specific
+android/app/*.keystore
+**/gradlew
+**/gradlew.bat
+**/gradle-wrapper.jar
+**/gradle/wrapper/
+
+# iOS specific (if you also target iOS)
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/engine/
+
+# macOS specific
+macos/Pods/
+macos/.symlinks/
+macos/Flutter/Flutter.framework
+macos/Flutter/Flutter.podspec
+macos/Flutter/engine/
+
+# Web specific
+web/.dart_tool/
+web/build/
+
+# Windows specific
+windows/.dart_tool/
+windows/build/
+
+# Linux specific
+linux/.dart_tool/
+linux/build/
+
+# Miscellaneous
+.DS_Store
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.log
+*.tmp
+*.swp
+*.lock
+*.bak
+*.orig
+*.rej
+*.sublime-workspace
+*.sublime-project
+
+# Exclude IntelliJ and Android Studio project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Exclude IDE-specific folders
+.vscode/
+
+# Exclude debug log files
+flutter_*.log
