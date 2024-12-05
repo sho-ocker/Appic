@@ -1,0 +1,43 @@
+name: app_ic
+description: A sample command-line application with basic argument parsing.
+version: 0.0.1
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.2.3
+
+# Add regular dependencies here.
+dependencies:
+  #args: ^2.4.2
+  flutter:
+    sdk: flutter
+
+  card_swiper: ^3.0.1 #for swiping functionlities
+  http: ^1.1.2 # for making API requests
+  sqflite: ^2.3.0 #database
+  path: ^1.9.0 #for join in database helper
+  cron: ^0.6.0
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  lints: ^2.1.0
+  test: ^1.24.0
+
+flutter:
+  assets:
+    - assets/images/
+  fonts:
+    - family: MonotonRegular
+      fonts:
+        - asset: assets/fonts/Monoton-Regular.ttf
+
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/launcher_icon/icon.png"
